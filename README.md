@@ -1,2 +1,2 @@
 # Portafolio personal 
-*Currículum Vitae.
+*Currículum Vitae online + trabajos realizados a la fecha.
