@@ -127,7 +127,7 @@ html, body {
     -------------------------------------------------------------------------------
     */ }
 html h1, html h2, html h3, html h4, html h5, html h6, html span, body h1, body h2, body h3, body h4, body h5, body h6, body span {
-    font-family: 'Raleway', sans-serif; }
+        font-family: Roboto Light; }
 html h4, body h4 {
     font-size: 2.28rem;
     line-height: 110%;
@@ -158,10 +158,12 @@ html .is-hidden, body .is-hidden {
     visibility: hidden; }
 html .btn, body .btn {
     padding-top: 8px;
-    background-color: #1f5694 !important; }
+    /*background-color: #1f5694 !important;*/
+    color: #fff; }
 
 a.btn.waves-effect.nohover {
     color: #fff;
+    background-color: #1f5694 !important;
 }
 
 
@@ -224,6 +226,31 @@ a.btn.waves-effect.nohover {
     margin: 0;
     color: inherit;
     text-align: center; }
+
+h2.sub{
+    font-size: 18px;
+    color: #fff;
+}
+
+p.presentacion{
+    font-size: 19px;
+    line-height: 2em;
+    font-family: roboto light;
+    text-align:  left !important;
+}
+
+ul.adicional{
+    font-size: 18px;
+    line-height: 2em;
+    margin-top: -20px;
+    font-family: 'roboto condensed';
+}
+
+ul.adicional ol{
+    padding: 0px !important;
+}
+
+
 
 /*
 -------------------------------------------------------------------------------
@@ -748,7 +775,8 @@ a.btn.waves-effect.nohover {
     outline: 0;
     font-size: 20px; }
 .timeline-block .card-content .modal-dot:hover, .timeline-block .card-content .modal-dot:focus {
-    color: #e43700; }
+    /*color: #e43700;*/
+    color: #16e0e0; }
 .timeline-block .timeline-dot {
     background: #1F5694;
     width: 50px;
@@ -1093,6 +1121,13 @@ a.btn.waves-effect.nohover {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both; }
 
+p.pa-portafolio{
+    font-size: 19px;
+    line-height: 2em;
+    font-family: roboto light;
+    
+}
+
 /*
 -------------------------------------------------------------------------------
 9. INTERESES
@@ -1134,13 +1169,20 @@ a.btn.waves-effect.nohover {
     #interest .card .box {
         max-width: 33.33333333%; } }
 
+p.intereses{
+    font-size: 19px;
+    line-height: 2em;
+    font-family: roboto light;
+    
+}
+
 /*
 -------------------------------------------------------------------------------
 10. RECOMENDACIONES
 -------------------------------------------------------------------------------
 */
-#testimonials .carousel {
-    cursor: w-resize; }
+/*#testimonials .carousel {
+    cursor: w-resize; }*/
 #testimonials .carousel-indicators li {
     border: 2px solid #00BCD4; }
 #testimonials .carousel-indicators .active {
@@ -1160,21 +1202,28 @@ a.btn.waves-effect.nohover {
     padding-top: 66px;
     text-align: center;
     padding-bottom: 39px;
-    font-size: 15px;
-    border-left: none; }
+    font-size: 16px;
+    border-left: none;
+    font-family: 'Roboto Light';
+    font-weight: 100;
+    font-style: italic;
+    line-height: 2em; }
 #testimonials blockquote::before {
     content: "\201C";
-    font-family: Georgia, serif;
-    font-weight: bold;
+    font-family: Georgia, serif;    
     color: #00BCD4;
     font-size: 2em;
-    line-height: .1em;
+    line-height: 1em;
     margin-right: 0;
+    font-weight: 300;
     vertical-align: -0.3em; }
 #testimonials blockquote cite {
     display: block;
-    margin: 15px 0 0 0;
-    font-style: normal; }
+    margin: 25px 0 0 0;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto Light'; }
 #testimonials #clients {
     margin-top: 14px;
     display: block; }
@@ -1329,9 +1378,6 @@ footer {
     margin-bottom: 9px; }
 
 /*# sourceMappingURL=style.css.map */
-
-
-
 
 
 body.scale-effect .icon-close{
