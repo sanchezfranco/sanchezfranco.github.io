@@ -1,5 +1,5 @@
 # Portafolio digital 
-## Ingeniero Informático, desarrollador y programador de aplicaciones web.
+## Ingeniero Informático, desarrollador y programador de aplicaciones web. Freelance
 
 #### **Nombre:** Franco Miranda Sánchez
 #### **Ubicación:** Concepción, Chile
